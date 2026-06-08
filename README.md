@@ -1,23 +1,31 @@
 <div align="center">
 
 ```
- ██╗███████╗██╗     ██╗   ██╗ █████╗ ███╗   ██╗████████╗██████╗ ██╗██╗  ██╗
- ██║██╔════╝██║     ██║   ██║██╔══██╗████╗  ██║╚══██╔══╝██╔══██╗██║╚██╗██╔╝
- ██║█████╗  ██║     ██║   ██║███████║██╔██╗ ██║   ██║   ██████╔╝██║ ╚███╔╝ 
- ██║██╔══╝  ██║     ╚██╗ ██╔╝██╔══██║██║╚██╗██║   ██║   ██╔══██╗██║ ██╔██╗ 
- ██║███████╗███████╗ ╚████╔╝ ██║  ██║██║ ╚████║   ██║   ██║  ██║██║██╔╝ ██╗
- ╚═╝╚══════╝╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝
+    ██╗███████╗██╗    ██╗   ██╗ █████╗ ███╗   ██╗████████╗██████╗  █████╗ ██╗  ██╗
+    ██║██╔════╝██║    ██║   ██║██╔══██╗████╗  ██║╚══██╔══╝██╔══██╗██╔══██╗╚██╗██╔╝
+    ██║█████╗  ██║    ██║   ██║███████║██╔██╗ ██║   ██║   ██████╔╝███████║ ╚███╔╝ 
+██   ██║██╔══╝  ██║    ╚██╗ ██╔╝██╔══██║██║╚██╗██║   ██║   ██╔══██╗██╔══██║ ██╔██╗ 
+╚█████╔╝███████╗███████╗╚████╔╝ ██║  ██║██║ ╚████║   ██║   ██║  ██║██║  ██║██╔╝ ██╗
+ ╚════╝ ╚══════╝╚══════╝ ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
 ```
 
-**I build systems from scratch. No frameworks as crutches. No shortcuts.**
+**Founder, Xynlvantrex Labs**
+
+*We research, experiment, and build things that don't exist yet. Then we ship them.*
 
 </div>
 
 ---
 
-I'm an independent systems engineer and multi-domain builder. I work at the intersection of low-level systems, AI infrastructure, and security — designing things most people reach for a library to solve.
+## Xynlvantrex Labs
 
-Everything I build, I understand at the byte level.
+I run **Xynlvantrex Labs** — an independent research and engineering lab focused on building things that have no prior art. Not products that improve on what exists. Things that don't exist at all.
+
+The process is simple: identify a problem nobody has solved the right way, research it from first principles, experiment until something works, then deploy it.
+
+I'm young. I don't have a degree or years of industry experience. What I have is the ability to build anything I decide to build — across systems, AI, security, compilers, networking, and beyond — and the discipline to see it through.
+
+The lab is early. The work is real.
 
 ---
 
@@ -28,7 +36,7 @@ Everything I build, I understand at the byte level.
 ### HELIX — Transformer Inference Engine
 > `Rust` `Systems` `AI Infrastructure` `gRPC`
 
-A production-grade GPT-2 inference engine written entirely in Rust. No PyTorch. No ML frameworks. Every component hand-rolled.
+A production-grade GPT-2 inference engine written entirely in Rust. No PyTorch. No ML frameworks. Every component hand-rolled — because understanding a system means building it yourself.
 
 - Custom tensor engine with AVX2/FMA SIMD acceleration
 - BPE tokenizer loaded directly from OpenAI's vocab files
@@ -41,27 +49,25 @@ A production-grade GPT-2 inference engine written entirely in Rust. No PyTorch. 
 - FLOP utilization benchmarking against theoretical peak
 
 ```
-117M params | 41 tok/s | 68% FLOP utilization | 38ms TTFT
+117M params · 41 tok/s · 68% FLOP utilization · 38ms TTFT
 ```
 
-**→ [github.com/Jelvantrix/HELIX](https://github.com/Jelvantrix/HELIX)** `[In Progress]` `[Open to Contributions]`
+**→ [github.com/Jelvantrix/HELIX](https://github.com/Jelvantrix/HELIX)** `In Progress` `Open to Contributions`
 
 ---
 
 ### EREBUS-KRONOS — Custom OS + Compiler Stack
-> `Rust` `C` `Systems` `Compilers` `OS Development`
+> `Rust` `C` `OS Development` `Compilers`
 
-An experimental computing stack built entirely from scratch. Not a hobby bootloader. An actual working system.
+An experimental computing stack built entirely from scratch. Not a hobby bootloader — an actual working system with a kernel, desktop, compiler, and custom programming language.
 
 - Custom 32-bit kernel and bootloader
 - Handwritten filesystem
-- Desktop environment with working GUI
-- Custom programming language (Kronos) with its own Rust-compiled compiler
-- Networking stack and audio subsystem
-- Package manager
-- Successfully booted in VirtualBox with a working GUI
+- Desktop environment with working GUI (booted in VirtualBox)
+- Custom programming language (Kronos) compiled with a Rust-written compiler
+- Networking stack, audio subsystem, package manager
 
-The entire stack — from the first instruction in the bootloader to the window manager — is original code.
+Everything from the first bootloader instruction to the window manager is original code.
 
 **→ [github.com/Jelvantrix/Erebus-Kronos](https://github.com/Jelvantrix/Erebus-Kronos)**
 
@@ -70,31 +76,25 @@ The entire stack — from the first instruction in the bootloader to the window 
 ### SENTINEL — Cyber Defense Operating Environment
 > `Rust` `TypeScript` `Tauri` `eBPF` `Security`
 
-A modular, offline-sovereign cyber defense platform. 46 Rust crates. 12 architectural layers. 464 tests.
+A modular, offline-sovereign, zero-cloud cyber defense platform. 46 Rust crates. 12 architectural layers. 464 tests. Built in approximately one day.
 
 - eBPF kernel-level process tracing
 - Memory forensics engine
 - Malware sandboxing with YARA integration
-- Autonomous threat response system
+- Autonomous threat response
 - Honeypot infrastructure
-- Zero external cloud dependency — fully air-gap capable
-- Built in approximately one day
+- Fully air-gap capable — no external cloud dependency
 
 **→ [github.com/Jelvantrix/SENTINEL](https://github.com/Jelvantrix/SENTINEL)**
 
 ---
 
 ### AI Desktop Operator — Autonomous PC Control
-> `AI` `Python` `Computer Vision` `Agents`
+> `AI` `Python` `Agents` `Computer Vision`
 
-An autonomous agent that controls an entire PC through natural language. No APIs. No screen overlays. Direct computer control.
+An autonomous agent that controls an entire PC through natural language. No APIs. No overlays. Direct system control across the full desktop environment.
 
-- Natural language → system actions
-- Full desktop environment control
-- Terminal access, file management, app control
-- Multi-platform
-
-**→ [github.com/Jelvantrix/AI-Desktop-Operator](https://github.com/Jelvantrix/AI-Desktop-Operator)** `[In Progress]`
+**→ [github.com/Jelvantrix/AI-Desktop-Operator](https://github.com/Jelvantrix/AI-Desktop-Operator)** `In Progress`
 
 ---
 
@@ -102,30 +102,32 @@ An autonomous agent that controls an entire PC through natural language. No APIs
 
 ```
 Languages     Rust · TypeScript · Python · C · Go
-Systems       Linux · eBPF · memory management · kernel development
+Systems       Linux kernel · eBPF · memory management · OS development
 AI/ML         transformer architecture · inference engines · autonomous agents
 Security      threat detection · memory forensics · sandboxing · YARA
-Networking    custom stacks · gRPC · WebSockets · Tor
+Networking    custom protocol stacks · gRPC · WebSockets
 Tooling       Cargo · Tokio · Tauri · axum · tonic
-OS            Arch Linux · KDE Plasma
+Environment   Arch Linux · KDE Plasma
 ```
 
 ---
 
 ## How I Work
 
-I don't reach for abstractions I don't understand.
+I don't use abstractions I don't understand.
 
-Before using a library for anything foundational, I build it myself first — not to reinvent the wheel, but to understand what the wheel actually is. Every project here started with a blank file and grew from first principles.
+Before using any foundational library, I build the thing myself first — not to reinvent wheels, but to know exactly what the wheel is made of. Every project here started with a blank file.
 
-I work alone, autonomously, and ship things that work.
+I work across domains because systems talk to each other. An inference engine needs a tensor core. A tensor core needs memory management. Memory management needs to know the hardware. You can't draw a clean border between disciplines and still build something serious.
+
+I'm young, self-taught, and independent. Xynlvantrex Labs is where I do my most ambitious work — things that don't exist yet, built the way they should be built.
 
 ---
 
 <div align="center">
 
-*Not open to work. Just building.*
+*Not open to work. Building the lab.*
 
-**[github.com/Jelvantrix](https://github.com/Jelvantrix)**
+**[Xynlvantrex Labs](https://github.com/Jelvantrix)** · Founded by Jelvantrix
 
 </div>

@@ -23,7 +23,7 @@ I run **Xynlvantrex Labs** — an independent research and engineering lab focus
 
 The process is simple: identify a problem nobody has solved the right way, research it from first principles, experiment until something works, then deploy it.
 
-I'm young. I don't have a degree or years of industry experience. What I have is the ability to build anything I decide to build and the discipline to see it through. The lab is early. The work is real.
+I have the ability to build anything I decide to build and the discipline to see it through. The lab is early. The work is real.
 
 ---
 
@@ -117,7 +117,7 @@ Before using any foundational library, I build the thing myself first — not to
 
 I work across domains because real systems don't stay inside one discipline. An inference engine needs a tensor core. A tensor core needs memory management. Memory management needs to understand the hardware. You can't draw clean borders between disciplines and still build something serious.
 
-I'm young, self-taught, and independent. Xynlvantrex Labs is where I do my most ambitious work.
+Independent. Xynlvantrex Labs is where I do my most ambitious work.
 
 ---
 
@@ -133,7 +133,7 @@ I don't have years of experience. I have proof of work.
 
 <div align="center">
 
-*Young. Independent. Building the lab.*
+*Independent. Building the lab.*
 
 **[Xynlvantrex Labs](https://github.com/Jelvantrix)** · Founded by Jelvantrix
 

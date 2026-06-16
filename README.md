@@ -125,8 +125,6 @@ Independent. Xynlvantrex Labs is where I do my most ambitious work.
 
 I'm open to opportunities in any domain I work in — systems engineering, AI infrastructure, security, compilers, distributed systems, or deep-tech research roles.
 
-I don't have years of experience. I have proof of work.
-
 > **Reach me:** [GitHub](https://github.com/Jelvantrix) · open an issue on any repo · or find me
 
 ---

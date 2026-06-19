@@ -9,7 +9,7 @@
  ╚════╝ ╚══════╝╚══════╝ ╚═══╝  ╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
 ```
 
-**Founder, Xynlvantrex Labs**
+**Founder, @Xynlvantrex-Labs**
 
 *We research, experiment, and build things that don't exist yet. Then we ship them.*
 

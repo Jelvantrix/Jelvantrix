@@ -33,4 +33,4 @@ I am currently **open to remote opportunities, technical projects, and engineeri
 
 Have a technical project, engineering opportunity, or collaboration in mind?
 
-**Email:** Jelvantrix@gmail.com
+**Email:** huxaifa0fficial@gmail.com
